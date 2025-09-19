@@ -1,0 +1,292 @@
+body{
+   margin: 0px;
+}
+.sidebar{
+    background-color: #E4E3E3;
+    width: 300px;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .sidechat{
+    background-color: #CCCCCC;
+    width: 230px;
+    height: 65px;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+}
+.avatar1{
+   background-color: aqua;
+   width: 50px;
+   height: 50px;
+   border-radius: 100px;
+   padding-left: 0px;
+   }
+   .avatar2{
+      background-color: aqua;
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+   }
+   .avatar3{
+      background-color: aqua;
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+   }
+   .avatar4{
+      background-color: aqua;
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+}
+ .topbar{
+   background-color: #CCCCCC;
+   width: 300px;
+   height: 75px;
+   display: flex;
+   justify-content: space-between;
+ }
+ .serchbar{
+   background-color: #CCCCCC;
+   width: calc(100% - 50px);
+   height: 30px;
+   border-radius: 13px;
+   align-items: center;
+   display: flex;
+   padding-left: 10px;
+   padding-right: 10px;
+   gap: 10px;
+ }
+ .serch{
+   background-color: #BEBEBE;
+   border: none;
+   border-radius: 100px;
+   width: calc(100% - 30px);
+ }
+
+.avatar{
+   background-color: black;
+   width: 55px;
+   height: 55px;
+   display: flex;
+   margin-left: 15px;
+   margin-top: 10px;
+   border-radius: 100%;
+}
+/* .User{
+
+}
+.UserTime{
+
+} */
+.Userinfo{
+   margin-top: 18px;
+   margin-left: 15px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+.Settingsimg{
+margin-right: 15px;
+}
+.lefttopbarblock{
+   display: flex;
+
+}
+.container{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.midlebar{
+   background-color: #D9D9D9;
+   width: calc(100vw - 600px);
+   height: 100vh;
+   flex-direction: column;
+   gap: 10px; 
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+.shortbar{
+   background-color: #CCCCCC;
+   position: absolute;
+   width: calc(100vw - 640px);
+   height: 70px;
+   display: flex;
+   bottom: 0px;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.Photoimg{
+width: 32px;
+height: 32px;
+}
+.Pushimg{
+   width: 32px;
+   height: 32px;
+}
+.Sentmasseg{
+   background-color: #BEBEBE;
+   border: none;
+   border-radius: 100px;
+   width: calc(100% - 115px);
+   height: 30px;
+}
+.messeng{
+   background-color: #c7c7c7;
+   width: 300px;
+   height: 30px;
+   border-radius: 13px;
+   position: relative; 
+   right: 140px;  
+   top: 800px;
+}
+.messeng2{
+   background-color: #c7c7c7;
+   width: 300px;
+   height: 30px;
+   border-radius: 13px;
+   position: relative; 
+   left: 140px;  
+   top: 800px;
+}
+.messengtime{
+   position: relative;
+   left: 265px;
+   top: 15px;
+   font-size: 0.7em;   
+}
+.messengtime2{
+   position: relative;
+   left: 265px;
+   top: 15px;
+   font-size: 0.7em;
+}
+.rightbar{
+   background-color: #E5E5E5;
+   width: 300px;
+   height: 100vh;
+   gap: 20px;
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   align-items: center;
+}
+.Userbar{
+   background-color: #CCCCCC;
+   width: 280px;
+   height: 90px;
+   border-radius: 13px;
+   margin-top: 15px;
+   display: flex;
+   align-items: center;
+}
+.User-avatar{
+   background-color: aqua;
+   border-radius: 100px;
+   width: 70px;
+   height: 70px;
+   margin-left: 10px;
+}
+.User-Info{
+   display: flex;
+   flex-direction: column;
+}
+.User-name{
+   font-size: 1.2em;
+   position: relative;
+   bottom: 10px;
+   left: 5px;
+}
+.User-time{
+   font-size: 0.7em;
+   position: relative;
+   bottom: 8px;
+   left: 5px;
+}
+.User-call-bar{
+   background-color: #CCCCCC;
+   display: flex;
+   height: 700px;
+   width: 280px;
+   border-radius: 13px;
+   gap: 4px;
+   flex-direction: column;
+}
+.Blockbar{
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   margin: 5px;
+}
+.call-block{
+   background-color: #E5E5E5;
+   height: 45px;
+   width: 45px;
+   border-radius: 13px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.videocall-block{
+   background-color: #E5E5E5;
+   height: 45px;
+   width: 45px;
+   border-radius: 13px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.volum-block{
+   background-color: #E5E5E5;
+   height: 45px;
+   width: 45px;
+   border-radius: 13px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.serch-block{
+   background-color: #E5E5E5;
+   height: 45px;
+   width: 45px;
+   border-radius: 13px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.menu-block{
+   background-color: #E5E5E5;
+   height: 45px;
+   width: 45px;
+   border-radius: 13px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.User-info-bar{
+   background-color: #E5E5E5;
+   height: 200px;
+   width: 270px;
+   margin: 5px;
+   border-radius: 13px;
+}
+.media-bar{
+   background-color: #E5E5E5;
+   height: 35px;
+   width: 270px;
+   margin: 5px;
+   border-radius: 13px;
+}
